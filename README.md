@@ -13,7 +13,7 @@ xonstatus is a program to query xonotic game servers for their status. The respo
     - Player nick
  - Other server info
 
-# Uasge
+# Usage
 Here is a simple client:
 ```python
 from xonstatus import *
