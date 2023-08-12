@@ -191,7 +191,7 @@ class Parser:
             if len(info) == 3:
                 players.append(dict(score=info[0], ping=info[1], team=info[2], nick=player_nick))
             else:
-                player.append(dict(score=info[0], ping=info[1], team=None, nick=player_nick))
+                players.append(dict(score=info[0], ping=info[1], team=None, nick=player_nick))
         return players
 
     def xonfilter(self, c):
