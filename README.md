@@ -23,4 +23,4 @@ status = client.getStatus()
 print(status)
 
 ```
-Also see [a relative link](example.py).
+Also see [example](example.py).
